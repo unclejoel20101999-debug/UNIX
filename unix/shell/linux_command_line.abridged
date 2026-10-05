@@ -1,0 +1,47 @@
+Linux command line
+
+Shell is a program that takes keyboard input
+and passes it to the OS.
+
+Shell prompt usually follows username@machinename
+format.
+
+date - prints current date.
+cal - prints the calendar.
+df - prints the current available space.
+free - print currently free RAM.
+pwd - print working directory.
+ls - list files.
+cd - change current directory, either using relative
+or absolute path.
+
+ls - list files; also can list mult. dirs.
+ls -lt - long format plus sorted by time.
+
+mkdir - create directory.
+cp - copy file or a directory.
+mv - move and rename.
+rm - remove.
+Better test the rm with echo or ls if using
+globbing.
+
+type - defines command's type.
+which - determine location.
+help & --help - display usage info.
+man - display manual pages:
+1. User commands
+2. PI for kernel syscalls
+3. PI for C libs
+4. Special files such as device nodes and drivers
+5. File formats
+6. Games
+7. Misc.
+8. Sysadmin commands
+
+apropos - display appropriate command.
+whatis - display one-line manual page.
+info - display command info entry.
+
+/usr/share/doc - useful documentation for software.
+
+alias - shortcut for defined series of commands.
