@@ -45,3 +45,34 @@ info - display command info entry.
 /usr/share/doc - useful documentation for software.
 
 alias - shortcut for defined series of commands.
+
+> - redirect output; rewrites the file.
+>> - append.
+2> - redirect the stderr.
+&> - redirect stdout and stderr to one file.
+
+/dev/null - accepts input and does nothing;
+used to supress output.
+
+cat - display file content.
+cat > - can join files.
+| - redirect stdout to stdin.
+sort - sort the input by pattern.
+uniq - remove duplicates.
+wc - print line, word and byte count.
+grep - match pattern.
+tail/head - print last/first n lines from file.
+tail -f - watch the file in real time.
+tee - read from stdin and output to stdout and files.
+echo - print text to stdout.
+printenv - list environment variables.
+$() - command substitution; ex: ls -l $(which cp).
+
+Escape sequences:
+1. \a - bell
+2. \b - backslash
+3. \n - newline
+4. \r - carriage return
+5. \t - tab
+
+
