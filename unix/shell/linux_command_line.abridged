@@ -75,4 +75,14 @@ Escape sequences:
 4. \r - carriage return
 5. \t - tab
 
+id - display current identity.
 
+/etc/passwd - user accounts.
+/etc/group - group accounts.
+/etc/shadow - user/group passwords.
+
+umask - change standard rights for newly created files.
+
+su - change current user.
+sudo - execute command as (super)user.
+chown - change file owner/group.
