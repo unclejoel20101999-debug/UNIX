@@ -86,3 +86,25 @@ umask - change standard rights for newly created files.
 su - change current user.
 sudo - execute command as (super)user.
 chown - change file owner/group.
+
+ps - display active processes.
+ps x; ps aux;
+
+Shell sessions stores environment.
+
+Environment stores environment variables and
+shell variables.
+
+set | less - view envars sorted.
+alias - display aliases.
+
+/etc/profile - global cfg script that applies to all users.
+~/.bash_profile - usr personal cfg file.
+~/.bash_login - if previous is missing, bash tries to read this.
+~/.profile - if previous two are missing, bash tries to read this.
+/etc/bash.bashrc - global cfg script that applies to all users.
+~/.bashrc - usr personal cfg file.
+
+export - make envar available to the child processes.
+
+$PS1 = terminal prompt.
