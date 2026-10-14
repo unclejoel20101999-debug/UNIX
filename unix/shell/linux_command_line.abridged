@@ -108,3 +108,45 @@ alias - display aliases.
 export - make envar available to the child processes.
 
 $PS1 = terminal prompt.
+
+/etc/fstab - lists devices that are to be mounted on boot.
+mount - mount/display mounted devices.
+umount - unmount the device.
+
+Good practice is to create a separate directory for a mount point
+in /mnt; like /mnt/cd_rom.
+
+Linux storage devices names:
+1. /dev/fd - Floppy disk drives.
+2. /dev/hd - IDE (PATA) drives on older system.
+3. /dev/lp - printers.
+4. /dev/sd - SCSI disks; modern Linux treats all
+disk-like devices as SCSI.
+5. /dev/sr - Optical (CD/DVD) drives.
+
+One way to look up the newly attached device's name is
+look up the /var/log/messages or /var/log/syslog:
+sudo tail -f /var/log/messages.
+
+fdisk - manipulate partitions on a specified drive;
+entering m will open a menu with options.
+mkfs - make new file system.
+fsck - file system check; repairs the damaged system.
+dd - copy blocks of data from X to Y; it has special syntax:
+dd if=input_file of=output_file [bs=block_size [count=blocks]]
+Use with caution.
+
+wodim - blank a rewritable CD-RW.
+md5sum - generate checksum.
+
+ping - send ICMP ECHO_REQUEST to a specified host.
+traceroute - lists the "hops" from local system to specified host.
+ip - multipurpose network config.
+
+loopback interface - virtual system used to talk to itself.
+
+netstat - examine network config and stats.
+ftp - download files and connect to fileservers.
+wget - download files.
+
+locate - search filename in database.
