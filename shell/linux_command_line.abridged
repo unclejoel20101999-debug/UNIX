@@ -150,3 +150,31 @@ ftp - download files and connect to fileservers.
 wget - download files.
 
 locate - search filename in database.
+
+gzip - compress and uncompress the data.
+zcat - same as cat but for gzip archives.
+zless - same as less.
+bzip2 - same as gzip, but higher compression?
+tar - create archive.
+tar tvf - detailed listing of the archive.
+
+RegEx:
+1. (.) - match any character
+2. ^ - match in the start of the line
+3. $ - match in the end of the line
+4. [] - match any stated single character; ^ negates,
+- states range.
+5. | - alternation.
+6. ? - match an element zero or one time
+7. * - match an element zero or more times
+8. + - match an element one or more times
+9. {} - match an element specified amount of times
+
+sort - sort text by pattern.
+comm - compare text files.
+diff - view differences between files.
+patch - apply the changes from diff table.
+tr - transliterate and delete text.
+sed - text stream editor; delimiter character is optional
+to choose from.
+aspell - interactive spell check.
