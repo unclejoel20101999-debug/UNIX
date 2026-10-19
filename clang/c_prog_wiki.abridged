@@ -1,0 +1,78 @@
+#include <stdio.h> - a preprocessor directive
+to include the contents of the stdio.h library.
+The brackets signify that the library is stored
+in the standard library location (/usr/include
+in this case).
+
+int main (void) - a main function is an entry
+point in every C program. Int specifies what
+value will be returned and (void) specifies
+what values (parameters) could be passed in.
+
+puts("Test message"); - a function call; sta-
+tement.
+
+Statement - an instruction that describes a
+single action. In C, they always end with a
+semicolon - ;.
+
+return 0; - exit status.
+
+gcc - the GNU C Compiler.
+
+echo $? - check the output of the last program ran.
+
+C language is a statically typed language.
+
+int(egers) - stores whole numbers; usually it's 32 bit
+(4 bytes) wide or 2^32.
+short int - is usually 16 bits wide (2 bytes).
+long int - is usually 64 bits wide (8 bytes).
+Unsigned int - uses the pos/neg bit to store
+more positive values, effectively doubling
+the pos values available.
+
+char - stores characters, which are letters,
+numbers, etc.; is 8 bits wide (1 byte).
+
+Strings are not a separate type, but an array
+of chars.
+
+double - or double-precision floating point
+number; is 64 bits wide (8 byte).
+
+float - same as double, but less precise;
+is 32 bits wide (4 bytes); must be suffixed
+with f.
+
+booleans - either true (1) or  false (0).
+
+#include - one type of a preprocessor directive.
+In this case, the preprocessor copies the contents
+of the stated library into the source file.
+
+Format specifiers:
+1. %d, %i - int
+2. %ld, %li - long int
+3. %f - float
+4. %lf, %g - double
+5. %c - char
+6. %s - string
+7. %x - int, but hexadecimal
+
+Full format specifier:
+%[argument$][flags][width][.precision]type
+
+Arguments example:
+printf("%d * %d = %d", 4, 4, 16);
+printf("%1$d * %1$d = %2$d", 4, 16);
+
+RAM is usually split in 2 parts:
+1. Stack - a space for short-lived that
+operates on a FILO model.
+2. Heap - a space for long-lived, larger data.
+
+sizeof - evaluate the size of an object or type.
+
+static - when a static variable goes out of the 
+scope, it retains it's value.

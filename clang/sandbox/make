@@ -1,0 +1,5 @@
+SOURCE=ls.c
+PROGRAM=ls_out
+
+$(PROGRAM): $(SOURCE)
+	gcc -Wall -Wextra -o $(PROGRAM) $(SOURCE)
