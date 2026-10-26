@@ -76,3 +76,17 @@ sizeof - evaluate the size of an object or type.
 
 static - when a static variable goes out of the 
 scope, it retains it's value.
+
+volatile - type modifier that tells the compiler
+that the value of a varialbe can be changed by
+external entities.
+
+register - is a type modifier that hints the
+compiler to store the variable data in a CPU
+register.
+
+& - adress of memory.
+scanf - used to receive input.
+fgets - similar to above, but for strings.
+While it is possible to input strings with
+scanf, it doesn't allow to use the sizeof function.

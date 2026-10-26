@@ -178,3 +178,10 @@ tr - transliterate and delete text.
 sed - text stream editor; delimiter character is optional
 to choose from.
 aspell - interactive spell check.
+
+nl - creates an enumerated markup of the text stream.
+fold - wrap each line to a specified length.
+fmt - simple text formatter.
+fmt -cw 64 - format the input to resemble
+paragraphs of specified width.
+printf - basically the same as C.
